@@ -67,8 +67,15 @@ It generates a random error message which is handled by ErrorHandler middleware.
 GET http://localhost:3000/api/error
 ```
 
+### View Counter
+It generates the number of visitors.
+```bash
+GET http://localhost:3000/api/views
+```
+<br><br>
 AuthAPI micros :- https://web.deta.sh/home/ritam02-cyber/default/micros/AuthAPI<br>
 ErrorHandler micros :- https://web.deta.sh/home/ritam02-cyber/default/micros/ErrorHandler<br>
 ViewCounter micros :- https://web.deta.sh/home/ritam02-cyber/default/micros/ViewCounter<br>
+<br>
 ## Author
 -[@Ritam02-cyber](https://github.com/Ritam02-cyber)
