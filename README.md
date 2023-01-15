@@ -1,4 +1,5 @@
 # Microservice
+#### (Micro-Task 1 and Micro-Task 2)
 A microservice is an application architecture that separates each application function into its own service from the others. These services can be deployed independently and are loosely connected that communicate through lightweight protocols.<br>
 This microservice performs three tasks :- 
 * Error handling - to handle server status
@@ -76,6 +77,41 @@ GET http://localhost:3000/api/views
 AuthAPI micros :- https://web.deta.sh/home/ritam02-cyber/default/micros/AuthAPI<br>
 ErrorHandler micros :- https://web.deta.sh/home/ritam02-cyber/default/micros/ErrorHandler<br>
 ViewCounter micros :- https://web.deta.sh/home/ritam02-cyber/default/micros/ViewCounter<br>
+<br><br>
+
+# GeolocationAPI
+#### (Micro-Task 4)<br>
+The user's latitude and longitude from the HTML geolocation service is used to develop a location microservice that can use them and provide the address and get latitude and longitude.
 <br>
+## API Reference
+It takes the user's location and returns the address.
+```bash
+GET https://45gjjg.deta.dev/get-address
+```
+
+## Installation
+```bash
+git clone https://github.com/Ritam02-cyber/GeolocationAPI.git
+```
+Navigate to :-
+```bash
+cd GeolocationAPI/
+```
+Install dependencies using :-
+```bash
+npm i
+```
+
+## Run server
+```bash
+npm start
+```
+
+## Deta server
+Link - https://45gjjg.deta.dev/get-address
+<br><br>
+![Screenshot](https://user-images.githubusercontent.com/62924322/212553909-cbec2ca6-5ce3-4695-b29f-a876f5940bbb.png)
+
+
 ## Author
 -[@Ritam02-cyber](https://github.com/Ritam02-cyber)
