@@ -19,10 +19,33 @@ cd AuthAPI/ or cd ErrorHandler/ or cd ViewCounter/
 
 ### Installation
 ```bash
+npm init
+```
+Then install the dependencies - express, mongoose, nodemon, dotenv, jsonwebtoken, bcrypt, validator, fs using :-
+```bash
 npm i
+```
+
+Create a .env file and add the MongoDB database username and password :-
+```bash
+DATABASE_URL = mongodb+srv://<username>:<password>@cluster0.nv6infp.mongodb.net/test
+JWT_TOKEN = stringforjwt
 ```
 
 ### Run server
 ```bash
 npm start
 ```
+
+## API Reference
+### Authentication
+#### Sign-up
+It returns a token
+```bash
+POST http://localhost:3000/api/sign-up
+```
+
+| Parameter | Type | Description |
+| :---: | :---: | :---:|
+| body | email | required |
+| body | password | required |
