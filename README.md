@@ -4,3 +4,8 @@ This microservice performs three tasks :-
 * Error handling - to handle server status
 * Visitor counter - to count the number of visitors
 * Authentication<br><br>
+
+## Installation
+```bash
+git clone 
+```
