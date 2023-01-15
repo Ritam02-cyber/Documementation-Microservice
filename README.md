@@ -7,5 +7,22 @@ This microservice performs three tasks :-
 
 ## Installation
 ```bash
-git clone 
+git clone https://github.com/Ritam02-cyber/Documementation-Microservice.git
+```
+### Navigation
+```bash
+cd MicroService
+```
+```bash
+cd AuthAPI/ or cd ErrorHandler/ or cd ViewCounter/
+```
+
+### Installation
+```bash
+npm i
+```
+
+### Run server
+```bash
+npm start
 ```
