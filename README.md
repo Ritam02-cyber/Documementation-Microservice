@@ -44,6 +44,7 @@ It returns a token.
 ```bash
 POST http://localhost:3000/api/sign-up
 ```
+
 | Parameter | Type | Description |
 | :---: | :---: | :---:|
 | body | email | required |
@@ -54,6 +55,7 @@ It returns a token.
 ```bash
 GET http://localhost:3000/api/sign-in
 ```
+
 | Parameter | Type | Description |
 | :---: | :---: | :---:|
 | body | email | required |
