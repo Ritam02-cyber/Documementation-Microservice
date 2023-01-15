@@ -11,7 +11,7 @@ git clone https://github.com/Ritam02-cyber/Documementation-Microservice.git
 ```
 ### Navigation
 ```bash
-cd MicroService
+cd MicroService/
 ```
 ```bash
 cd AuthAPI/ or cd ErrorHandler/ or cd ViewCounter/
@@ -40,12 +40,30 @@ npm start
 ## API Reference
 ### Authentication
 #### Sign-up
-It returns a token
+It returns a token.
 ```bash
 POST http://localhost:3000/api/sign-up
 ```
-
 | Parameter | Type | Description |
 | :---: | :---: | :---:|
 | body | email | required |
 | body | password | required |
+
+#### Sign-in
+It returns a token.
+```bash
+GET http://localhost:3000/api/sign-in
+```
+| Parameter | Type | Description |
+| :---: | :---: | :---:|
+| body | email | required |
+| body | password | required |
+
+### Error Handler
+It generates a random error message which is handled by ErrorHandler middleware.
+```bash
+GET http://localhost:3000/api/error
+```
+
+## Author
+-[@Ritam02-cyber](https://github.com/Ritam02-cyber)
